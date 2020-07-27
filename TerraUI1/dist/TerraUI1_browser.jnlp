@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="TerraUI1_browser.jnlp">
+  <information>
+    <title>TerraUI1</title>
+    <vendor>Nate</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="TerraUI1.jar" size="67777" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="terraui1.TerraUI1"  name="TerraUI1" >
+  </applet-desc>
+  <update check="always"/>
+</jnlp>
